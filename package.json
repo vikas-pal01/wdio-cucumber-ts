@@ -14,7 +14,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "wdio": "wdio run ./wdio.conf.ts"
+    "wdio": "wdio run ./wdio.conf.ts",
+    "cucumber":"wdio run wdio.conf.ts"
   },
   "devDependencies": {
     "@wdio/allure-reporter": "^9.18.0",
